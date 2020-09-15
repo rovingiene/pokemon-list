@@ -1,19 +1,6 @@
-# pokemon-list
+unfinished project but with complete functionalities
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Shows list of pokemon that uses:
+pokeapi.co as the source for retrieving sources
+basic usage of axios with GET REST api method
+With searching option that uses vuetify v-autocomplete
