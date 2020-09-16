@@ -6,12 +6,10 @@
     </v-overlay>
     <h1 style="display:flex; justify-content:center; color:white">Poke dex</h1>
 
-    <div style="display:flex; flex-direction:row; justify-content:center">
-      <div
-        style="background-color:#f1f2f6; border-radius:15px; display: flex; flex: 1; margin: 20px; padding: 10px; flex-direction:column"
-      >
+    <div>
+      <div style="background-color:white">
         <!-- Pokemonn Search -->
-        <div style="display:flex; flex-direction:column; ">
+        <div>
           <!-- <v-text-field
             outlined
             label="Search"
@@ -39,7 +37,7 @@
               </template>
             </template>
           </v-autocomplete>
-          <!-- <v-btn color="red">Submit</v-btn> -->
+          <v-btn style="margin:10" color="red">Submit</v-btn>
         </div>
         <!-- Pokemon List version 1 -->
         <div v-for="pokemon in pokemon_list" :key="pokemon.name">
@@ -62,7 +60,7 @@
       </div>
 
       <div
-        style="background-color:#ff4757; border-radius:15px; display: flex; flex:1 ;margin: 20px; padding: 10px;"
+        style="background-color:#ff4757; border-radius:15px; display: flex; flex:1 ;margin: 20px; padding: 10px; justify-content:center"
       >
         <!-- Pokemon Details -->
         <!-- No Pokemon found -->
