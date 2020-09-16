@@ -7,4 +7,4 @@
 - v-for and v-if and v-slot vue fundamentals
 
 an unfinished project but with complete functionalities
-link available at: [rovingiene-pokemon-list.now.sh](https://rovingiene-pokemon.now.sh/)
+link available at: [/rovingiene-pokemon.netlify.app](https:///rovingiene-pokemon.netlify.app/)
