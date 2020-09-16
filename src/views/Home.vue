@@ -18,6 +18,7 @@
             :loading="loading"
           ></v-text-field>-->
           <v-autocomplete
+            placeholder="Search Pokemon"
             v-model="search.name"
             :items="pokemon_data"
             item-text="name"
@@ -37,7 +38,7 @@
               </template>
             </template>
           </v-autocomplete>
-          <v-btn style="margin:10" color="red">Submit</v-btn>
+          <v-btn style="margin:10px" color="red" @click="searchPokemon()">Submit</v-btn>
         </div>
         <!-- Pokemon List version 1 -->
         <div v-for="pokemon in pokemon_list" :key="pokemon.name">
